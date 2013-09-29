@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Bootstrap 101 Template</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="http://code.jquery.com/jquery.js"></script>
-  </body>
+	<head>
+		<title>Bootstrap 101 Template</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<style>
+			body {
+				background: #eaeaea;
+				padding: 50px;
+			}
+
+			.show {
+				background: #bfbfbf;
+			}
+
+			.bodyContainer {
+				background: #fff;
+				border-radius: 5px;
+				min-height: 500px!important;
+				padding: 20px;
+			}
+
+			h1 {
+				color: #BF4A5F;
+			}
+
+			h2 {
+				color: #009999;
+			}
+
+			h4 {
+				color: #3399CC;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="row-fluid">
+			<div class="span3"></div>
+			<div class="span6">
+				<div class="row-fluid">
+					<div class="span12">
+						<h1>Shorten URL</h1>
+					</div>
+				</div>
+				<div class="row-fluid">
+					<div class="bodyContainer span12">
+						<div class="row-fluid">
+							<div class="span8">
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h2>Description</h2>
+										<p>Shorten URL is a desktop application that allows for quick access to short URLs. With this application installed on your machine just copy and paste your long URL into the input field, and you will instantly receive a shorter URL you can share with your friends and social media.</p>
+									</div>
+								</div>
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h2>API</h2>
+										<p>This application is built on top of the <a href="http://is.gd/" target="_blank">is.gd</a> API platform. Their URL shortener is not the most fully featured and easy to use web application, but we at Shorten URL simplified their product and wrapped it up into a very easy to use and versatile solution.</p>
+										<p>The nice part about the <a href="http://is.gd/" target="_blank">is.gd</a> API platform is you'll never have to pay a penny to use either their product or ours, all while respecting and keeping your privacy.</p>
+									</div>
+								</div>
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h2>Copyright</h2>
+										<p>Paragraph</p>
+									</div>
+								</div>
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h2>Download Instruction</h2>
+										<p>Paragraph</p>
+									</div>
+								</div>
+
+							</div>
+							<div class="span4">
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h4>Download Button</h4>
+											<!-- IMPORTANT: Make sure you also copy the swfobject script tag from the head above -->
+												
+												<div id="flashcontent" style="width:215px; height:180px;">
+													<strong>Please upgrade your Flash Player</strong>
+												</div>
+
+												<script type="text/javascript">
+													// <![CDATA[
+													
+													// version 9.0.115 or greater is required for launching AIR apps.
+													var so = new SWFObject("AIRInstallBadge.swf", "Badge", "215", "180", "9.0.115", "#FFFFFF");
+													so.useExpressInstall('expressinstall.swf');
+													
+													// these parameters are required for badge install:
+													so.addVariable("airversion", "1.0"); // version of AIR runtime required
+													so.addVariable("appname", "Shorten URL"); // application name to display to the user
+													so.addVariable("appurl", "file://localhost/Users/photodow/Full%20Sail%20University/Deployment%20of%20Flash%20Projects/project/GitHubShorten-URL/installer/shorten-url.air"); // absolute URL (beginning with http or https) of the application ".air" file
+													
+													// these parameters are required to support launching apps from the badge (but optional for install):
+													so.addVariable("appid", "me.jamesd.URLShortener"); // the qualified application ID (ex. com.gskinner.air.MyApplication)
+													so.addVariable("pubid", ""); // publisher id
+													
+													// this parameter is required in addition to the above to support upgrading from the badge:
+													so.addVariable("appversion", "1.0"); // AIR application version
+													
+													// these parameters are optional:
+													so.addVariable("image", "demoImage.jpg"); // URL for an image (JPG, PNG, GIF) or SWF to display in the badge (205px wide, 170px high)
+													so.addVariable("appinstallarg", "installed from web"); // passed to the application when it is installed from the badge
+													so.addVariable("applauncharg", "launched from web"); // passed to the application when it is launched from the badge
+													so.addVariable("helpurl", "help.html"); // optional url to a page containing additional help, displayed in the badge's help screen
+													so.addVariable("hidehelp", "false"); // hides the help icon if "true"
+													so.addVariable("skiptransition", "false"); // skips the initial transition if "true"
+													so.addVariable("titlecolor", "#00AAFF"); // changes the color of titles
+													so.addVariable("buttonlabelcolor", "#00AAFF"); // changes the color of the button label
+													so.addVariable("appnamecolor", "#00AAFF"); // changes the color of the application name if the image is not specified or loaded
+													
+													// these parameters allow you to override the default text in the badge:
+													// supported strings: str_error, str_err_params, str_err_airunavailable, str_err_airswf, str_loading, str_install, str_launch, str_upgrade, str_close, str_launching, str_launchingtext, str_installing, str_installingtext, str_tryagain, str_beta3, str_beta3text, str_help, str_helptext
+													so.addVariable("str_err_airswf", "<u>Running locally?</u><br/><br/>The AIR proxy swf won't load properly when this demo is run from the local file system."); // overrides the error text when the AIR proxy swf fails to load
+													
+													so.write("flashcontent");
+													
+													// ]]>
+												</script>
+
+											<!-- END EMBED CODE -->
+									</div>
+								</div>
+
+								<div class="row-fluid">
+									<div class="span12">
+										<h4>Technical Specifications</h4>
+										<p>Paragraph</p>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span3"></div>
+		</div>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
 </html>

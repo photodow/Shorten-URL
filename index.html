@@ -6,7 +6,7 @@
 		<!-- Bootstrap -->
 		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 
-		<script type="text/javascript" src="installer/swfobject.js"></script>
+		<script type="text/javascript" src="swfobject.js"></script>
 
 		<style>
 			body {
@@ -103,8 +103,8 @@
 													// <![CDATA[
 													
 													// version 9.0.115 or greater is required for launching AIR apps.
-													var so = new SWFObject("installer/AIRInstallBadge.swf", "Badge", "215", "180", "9.0.115", "#FFFFFF");
-													so.useExpressInstall('installer/expressinstall.swf');
+													var so = new SWFObject("AIRInstallBadge.swf", "Badge", "215", "180", "9.0.115", "#FFFFFF");
+													so.useExpressInstall('expressinstall.swf');
 													
 													// these parameters are required for badge install:
 													so.addVariable("airversion", "1.0"); // version of AIR runtime required

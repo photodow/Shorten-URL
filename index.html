@@ -90,14 +90,14 @@
 												so.addVariable("appurl", "http://photodow.github.io/Shorten-URL/installer/shorten-url.air"); // absolute URL (beginning with http or https) of the application ".air" file
 												
 												// these parameters are required to support launching apps from the badge (but optional for install):
-												so.addVariable("appid", "MyApplication"); // the qualified application ID (ex. com.gskinner.air.MyApplication)
-												so.addVariable("pubid", ""); // publisher id
+												so.addVariable("appid", "me.jamesd.URLShortener"); // the qualified application ID (ex. com.gskinner.air.MyApplication)
+												so.addVariable("pubid", "photodow@fullsail.edu"); // publisher id
 												
 												// this parameter is required in addition to the above to support upgrading from the badge:
 												so.addVariable("appversion", "1.0.2"); // AIR application version
 												
 												// these parameters are optional:
-												so.addVariable("image", "demoImage.jpg"); // URL for an image (JPG, PNG, GIF) or SWF to display in the badge (205px wide, 170px high)
+												so.addVariable("image", ""); // URL for an image (JPG, PNG, GIF) or SWF to display in the badge (205px wide, 170px high)
 												so.addVariable("appinstallarg", "installed from web"); // passed to the application when it is installed from the badge
 												so.addVariable("applauncharg", "launched from web"); // passed to the application when it is launched from the badge
 												so.addVariable("helpurl", "help.html"); // optional url to a page containing additional help, displayed in the badge's help screen
@@ -139,7 +139,7 @@
 
 								<div class="row-fluid" style="margin-bottom:20px;">
 									<div class="span12">
-										<h4>download</h4>
+										<h4>Download</h4>
 										<a href="http://photodow.github.io/Shorten-URL/installer/shorten-url.air" target="_blank" class="btn btn-inverse btn-large">Download Here <i class="icon-white icon-download-alt"></i></a>
 									</div>
 								</div>
